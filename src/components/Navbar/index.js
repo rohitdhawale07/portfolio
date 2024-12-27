@@ -25,7 +25,7 @@ const Navbar = () => {
         <NavItems>
           <NavLink href="#about">About</NavLink>
           <NavLink href='#skills'>Skills</NavLink>
-          {/* <NavLink href='#experience'>Experience</NavLink> */}
+          <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
           <NavLink href='#contact'>Contact</NavLink>
@@ -43,7 +43,9 @@ const Navbar = () => {
             <MobileLink href='#skills' onClick={() => {
               setIsOpen(!isOpen)
             }}>Skills</MobileLink>
-
+            <MobileLink href='#experience' onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Experience</MobileLink>
             <MobileLink href='#projects' onClick={() => {
               setIsOpen(!isOpen)
             }}>Projects</MobileLink>
@@ -53,8 +55,8 @@ const Navbar = () => {
             <MobileLink href='#contact' onClick={() => {
               setIsOpen(!isOpen)
             }}>Contact</MobileLink>
-            <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
-            <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Linkedin Profile</GitHubButton>
+            <GitHubButton style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }} href={Bio.github} target="_blank">Github Profile</GitHubButton>
+            <GitHubButton style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }} href={Bio.github} target="_blank">Linkedin Profile</GitHubButton>
           </MobileMenu>
         }
       </NavbarContainer>

@@ -13,11 +13,10 @@ import DynamicChart from '../images/DynamicChart.png'
 export const Bio = {
   name: "Rohit Dhawale",
   roles: [
-    "Front-End Developer",
+    "Full Stack Developer",
     "Reactjs Developer",
-    "Javascript Developer",
-    "UI/UX Designer",
-    "Programmer",
+    "Nodejs Developer",
+    "Javascript Developer"
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
@@ -40,6 +39,21 @@ export const skills = [
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
       {
+        name: "Node Js",
+        image:
+          "https://static-00.iconduck.com/assets.00/nodejs-icon-2048x2048-rueyo8fw.png",
+      },
+      {
+        name: "JavaScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "Express Js",
+        image:
+          "https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png",
+      },
+      {
         name: "Redux",
         image:
           "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
@@ -52,11 +66,6 @@ export const skills = [
         name: "CSS",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-      },
-      {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       },
       {
         name: "Java",
@@ -85,7 +94,7 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
       },
       {
         name: "GitHub",
@@ -103,6 +112,11 @@ export const skills = [
           "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
       },
       {
+        name: "Digital Ocean",
+        image:
+          "https://static-00.iconduck.com/assets.00/digitalocean-icon-2048x2048-4col409s.png",
+      },
+      {
         name: "VS Code",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
@@ -110,117 +124,126 @@ export const skills = [
       {
         name: "Figma",
         image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+          "https://s3-alpha.figma.com/hub/file/479066114/4e60317b-e1cd-44fd-adfb-9d225a561fd4-cover.png",
+      },
+      {
+        name: "Sentry",
+        image:
+          "https://e7.pngegg.com/pngimages/282/295/png-clipart-logo-sentry-group-cdr-text.png",
       },
 
     ],
   },
-  
+
 ];
 
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "DevOps & Fullstack Engineering Intern",
-    company: "Flipr Inovations Pvt. Ltd.",
-    date: "Aug 2023 - July 2023",
-    desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
+    img: "https://media.licdn.com/dms/image/v2/C4E0BAQGyLMaHvAzXKQ/company-logo_200_200/company-logo_200_200/0/1630648655310/educase_india_logo?e=2147483647&v=beta&t=Il08u7KdwKyTBHqa_hc2HFyjZpI4fcYYGeQyI4qMmkY",
+    role: "Full Stack Developer",
+    company: "Educase India Pvt. Ltd.",
+    date: "Sept 2024 - Present",
+    desc: "Working as a Backend Developer at Educase Company, utilizing Node.js, Express.js, MySQL, Sentry, and JavaScript to build robust and efficient server-side applications.",
     skills: [
-      "Docker",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "Portainer",
-      "Nginx",
-      "JavaScript",
-      "TypeScript",
       "Node Js",
-      " Next Js",
-    ],
-    doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
-  },
-  {
-    id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Frontend Engineer Intern",
-    company: "Neurobit",
-    date: "June 2023 - Present",
-    desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
+      "Express Js",
+      "MySQL",
+      "Sentry",
+      "Javascript",
+      "React Js",
       "HTML",
       "CSS",
-      "JavaScript",
+      "Javascript",
+      "Bootstrap",
+      "Tailwind",
+      "Git",
+      "Github",
+      "Redux",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Fullstack Externship",
-    company: "Flipr",
-    date: "June 2023 - July 2023",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+    img: "https://media.licdn.com/dms/image/v2/C4E0BAQGyLMaHvAzXKQ/company-logo_200_200/company-logo_200_200/0/1630648655310/educase_india_logo?e=2147483647&v=beta&t=Il08u7KdwKyTBHqa_hc2HFyjZpI4fcYYGeQyI4qMmkY",
+    role: "Junior Front End Developer",
+    company: "Educase India Pvt. Ltd.",
+    date: "May 2024 - Sept 2024",
+    desc: "Worked as a Junior Front-End Developer at EDUCASE Company, specializing in building responsive and interactive web applications using React.js, HTML, CSS, and JavaScript. Proficient in modern UI frameworks like Bootstrap and Tailwind, with hands-on experience in version control tools such as Git and GitHub.",
     skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
+      "React Js",
       "HTML",
       "CSS",
-      "JavaScript",
-      "Docker",
-      "AWS",
-      "MongoDB",
-    ],
+      "Javascript",
+      "Bootstrap",
+      "Tailwind",
+      "Git",
+      "Github",
+      "Redux",
+    ]
   },
-  {
-    id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-    role: "Open Source Contributor ",
-    company: "GirlScript Summer of Code",
-    date: "May 2023 - Present",
-    desc: "Contributing to different open-source projects and learn from industry experts",
-    doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
-  },
-  {
-    id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
-    role: "Android Developer",
-    company: "DSC KIIT",
-    date: "Nov2021 - Present",
-    desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
-    skills: [
-      "Leadership",
-      "Mobile Application Development",
-      "Kotlin",
-      "XML",
-      "Figma",
-    ],
-  },
-  {
-    id: 4,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-    role: "Android Developer Intern",
-    company: "Rudraksha Welffare Foundation",
-    date: "June 2021 - Oct 2021",
-    desc: "As an Android Developer Intern at Rudraksha Welfare Foundation from June 2021 to October 2021, I gained valuable hands-on experience in application development. During my tenure, I contributed to the development of the application's back-end cloud functions using Firebase and implemented a front-end with the MVVM structure, which was designed using Figma. I also added a one-to-one video call feature, conceptualized new features, and optimized app performance. This internship helped me enhance my skills in Android development and gave me an opportunity to work in a collaborative team environment.",
-    skills: [
-      "Android",
-      "Java",
-      "Kotlin",
-      "XML",
-      "Node Js",
-      "Cloud Firestore",
-      "Firebase",
-      "Figma",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
-  },
+  // {
+  //   id: 1,
+  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+  //   role: "Fullstack Externship",
+  //   company: "Flipr",
+  //   date: "June 2023 - July 2023",
+  //   desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+  //   skills: [
+  //     "ReactJS",
+  //     "Redux",
+  //     "NodeJs",
+  //     "Material UI",
+  //     "HTML",
+  //     "CSS",
+  //     "JavaScript",
+  //     "Docker",
+  //     "AWS",
+  //     "MongoDB",
+  //   ],
+  // },
+  // {
+  //   id: 2,
+  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
+  //   role: "Open Source Contributor ",
+  //   company: "GirlScript Summer of Code",
+  //   date: "May 2023 - Present",
+  //   desc: "Contributing to different open-source projects and learn from industry experts",
+  //   doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
+  // },
+  // {
+  //   id: 3,
+  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
+  //   role: "Android Developer",
+  //   company: "DSC KIIT",
+  //   date: "Nov2021 - Present",
+  //   desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
+  //   skills: [
+  //     "Leadership",
+  //     "Mobile Application Development",
+  //     "Kotlin",
+  //     "XML",
+  //     "Figma",
+  //   ],
+  // },
+  // {
+  //   id: 4,
+  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
+  //   role: "Android Developer Intern",
+  //   company: "Rudraksha Welffare Foundation",
+  //   date: "June 2021 - Oct 2021",
+  //   desc: "As an Android Developer Intern at Rudraksha Welfare Foundation from June 2021 to October 2021, I gained valuable hands-on experience in application development. During my tenure, I contributed to the development of the application's back-end cloud functions using Firebase and implemented a front-end with the MVVM structure, which was designed using Figma. I also added a one-to-one video call feature, conceptualized new features, and optimized app performance. This internship helped me enhance my skills in Android development and gave me an opportunity to work in a collaborative team environment.",
+  //   skills: [
+  //     "Android",
+  //     "Java",
+  //     "Kotlin",
+  //     "XML",
+  //     "Node Js",
+  //     "Cloud Firestore",
+  //     "Firebase",
+  //     "Figma",
+  //   ],
+  //   doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
+  // },
 ];
 
 export const education = [
@@ -262,12 +285,12 @@ export const projects = [
     image:
       RecipeImage,
     tags: [
-        "Reactjs",
-        "React-dom",
-        "React-router-dom",
-        "semantic-ui-css",
-        "semantic-ui-react",
-        "Tailwind css",
+      "Reactjs",
+      "React-dom",
+      "React-router-dom",
+      "semantic-ui-css",
+      "semantic-ui-react",
+      "Tailwind css",
     ],
     category: "web app",
     github: "https://github.com/rohitdhawale07/recipe-finding-food-app",
@@ -277,7 +300,7 @@ export const projects = [
     id: 5,
     title: "Invoice Generator App",
     description:
-    "The Invoice Generator app simplifies the invoicing process, allowing users to effortlessly create and customize professional invoices for their business transactions. With user-friendly features, it streamlines invoice management, tracks payments, and enhances overall financial efficiency. Whether for freelancers or small businesses, this app ensures seamless invoicing, helping users maintain a clear and organized financial record.",
+      "The Invoice Generator app simplifies the invoicing process, allowing users to effortlessly create and customize professional invoices for their business transactions. With user-friendly features, it streamlines invoice management, tracks payments, and enhances overall financial efficiency. Whether for freelancers or small businesses, this app ensures seamless invoicing, helping users maintain a clear and organized financial record.",
     image: Invoice,
     tags: ["React Js", "Local Storage", "Invoice Generator", "Tailwind css"],
     category: "web app",
@@ -288,7 +311,7 @@ export const projects = [
     id: 1,
     title: "Food Eat App",
     description:
-    "Designed and devloped food eat app which will allow users to go through variety of types of foods. On the basis of choice it will give user related food options.",
+      "Designed and devloped food eat app which will allow users to go through variety of types of foods. On the basis of choice it will give user related food options.",
     image:
       FoodEat,
     tags: [
@@ -309,7 +332,7 @@ export const projects = [
     description: "Built and designed a TODO app which will store todo activities and further we can delete Item and Edit item, and also there is Remove all button which will remove all the todos from the lists ",
     image:
       TodoApp,
-    tags: ["Reactjs", "Tailiwind css", "React Icons","Dark and Light Mode"],
+    tags: ["Reactjs", "Tailiwind css", "React Icons", "Dark and Light Mode"],
     category: "Web App",
     github: "https://github.com/rohitdhawale07/ToDo-App-using-reactjs",
     webapp: " https://to-do-app-using-reactjs.vercel.app/",
@@ -319,7 +342,7 @@ export const projects = [
     id: 3,
     title: "Bank Loan App",
     description:
-    "Built a Bank Loan App which will Calculate the amount you will pay monthly according to downPayment , tenure and rate of interest. Also implemented a Pie Chart which will show data accordingly.",
+      "Built a Bank Loan App which will Calculate the amount you will pay monthly according to downPayment , tenure and rate of interest. Also implemented a Pie Chart which will show data accordingly.",
     image: BankLoanApp,
     tags: ["Reactjs", "Tailwind css", "Bank Loan Calculator", "Styling Slider",],
     category: "Web app",
@@ -333,7 +356,7 @@ export const projects = [
       "Developed GIF Search app which allow users serach any gif in search bar and in below they will find a gif related search value. Used Giphy API to fetch data",
     image:
       GIF,
-    tags: [ "GIFSearchApp" ,"React Js", "GiphyAPI","Tailwind css","Vercel"],
+    tags: ["GIFSearchApp", "React Js", "GiphyAPI", "Tailwind css", "Vercel"],
     category: "web app",
     github: "https://github.com/rohitdhawale07/GIF-search-app",
     webapp: "https://gif-search-app-hazel.vercel.app/",
@@ -342,9 +365,9 @@ export const projects = [
     id: 10,
     title: "Gym App",
     description:
-    "Designed a Gym app Which will display various types of exercises to user according to serach input. Show more button will fetch more data onClick function.",
+      "Designed a Gym app Which will display various types of exercises to user according to serach input. Show more button will fetch more data onClick function.",
     image: GymApp,
-    tags: ["Reactjs", "JavaScript", "Axios","tailwind css"],
+    tags: ["Reactjs", "JavaScript", "Axios", "tailwind css"],
     category: "android app",
     github: "https://github.com/rohitdhawale07/Gym-App-using-reactjs",
     webapp: "https://gym-app-using-reactjs.vercel.app/",
@@ -353,19 +376,19 @@ export const projects = [
     id: 4,
     title: "Quiz App",
     description:
-    "A Quiz App which will give 10 react related random questions which user has to answer and in last score will display out of 10 also there is tray again button in last.",
+      "A Quiz App which will give 10 react related random questions which user has to answer and in last score will display out of 10 also there is tray again button in last.",
     image: QuizApp,
     tags: ["React Js", "Tailwind css", "Quiz app", "React Questions"],
     category: "web app",
     github: "https://github.com/rohitdhawale07/Quiz-App-using-Reactjs",
     webapp: "https://quiz-app-using-reactjs.vercel.app/",
   },
-  
+
   {
     id: 6,
     title: "Text Editor",
     description:
-    "A simple React app which allows users to word Counter, Character Counter, Copy to clipboard, Remove extra space, Convert to uppercase and lowercase. And also to format text in respective manner. Also provided Dark and light mode feature.",
+      "A simple React app which allows users to word Counter, Character Counter, Copy to clipboard, Remove extra space, Convert to uppercase and lowercase. And also to format text in respective manner. Also provided Dark and light mode feature.",
     image: TextEditor,
     tags: ["React Js", "Word Counter", "Character Counter", "Copy to Clipboard", "Remove extra space"],
     category: "web app",
@@ -376,7 +399,7 @@ export const projects = [
     id: 7,
     title: "Password Generator App",
     description:
-    "Password Generator is a app which will allow users to generate a random password on random checks i.e. if users selected password length, contain numbers and contain uppercase then app will generate a password accordingly.",
+      "Password Generator is a app which will allow users to generate a random password on random checks i.e. if users selected password length, contain numbers and contain uppercase then app will generate a password accordingly.",
     image: Password,
     tags: ["Reactjs", "Taiwind css", "Math.Random",],
     category: "Web app",
@@ -387,9 +410,9 @@ export const projects = [
     id: 8,
     title: "Dynamic Chart with real time Data",
     description:
-    "This is the project of creating a dynamic chart using real time data. We used coingecko api becuase it updates its data every 45 sec which is the requirement of our project. We used https://api.coingecko.com/api/v3/coins/bitcoin this API which updtes its data on every 45 seconds and bacuase of that we SetInterval of time 45000 ms to our data update function.",
+      "This is the project of creating a dynamic chart using real time data. We used coingecko api becuase it updates its data every 45 sec which is the requirement of our project. We used https://api.coingecko.com/api/v3/coins/bitcoin this API which updtes its data on every 45 seconds and bacuase of that we SetInterval of time 45000 ms to our data update function.",
     image: DynamicChart,
-    tags: ["Javascript", "Html", "Css", "CoinGecko", "Bitcoin","Stocks"],
+    tags: ["Javascript", "Html", "Css", "CoinGecko", "Bitcoin", "Stocks"],
     category: "machine learning",
     github: "https://github.com/rohitdhawale07/Dynamic-Chart-with-real-time-Data",
     webapp: "https://rohitdhawale07.github.io/Dynamic-Chart-with-real-time-Data/",

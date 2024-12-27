@@ -182,7 +182,7 @@ const Contact = () => {
     const name = form.current['from_name'].value;
     const subject = form.current['subject'].value;
     const message = form.current['message'].value;
-  
+
     if (!email || !name || !subject || !message) {
       alert('Please fill in all required fields.');
       return;
@@ -195,6 +195,7 @@ const Contact = () => {
       })
       .catch((error) => {
         console.error('Error sending email:', error);
+        console.error('Error sending email:', error.text || error.message || error);
       });
   };
 
@@ -206,13 +207,16 @@ const Contact = () => {
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
+
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
+          <ContactInput placeholder="Recipient's Name" name="to_name" /> {/* Added recipient field */}
           <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
+
         <Snackbar
           open={open}
           autoHideDuration={6000}
